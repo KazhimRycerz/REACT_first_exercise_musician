@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "ChalkLine";
+    src: url("./fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("./fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
+  }
+@font-face {
+font-family: "Neoglow";
+src: url("./fonts/neon_glow/NEON\ GLOW-Hollow-Inverse.woff2") format("woff2"), url("./fonts/neon_glow/NEON\ GLOW-Hollow-Inverse.otf") format("otf");
+}
+
+main {
+    background:linear-gradient(#9198e5,#e66465);
+    height: 100vh;
+}
+h1 {
+    margin-top: 0px;
+    padding: 50px;
+    text-align: center;
+    font-family: ChalkLine;
+    letter-spacing: 20px;
+    line-height: 5rem;
+    color: 9198e5;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 10px 02px 10px;
+    
+}
+
+.kartensammlung {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0px;
+    margin: 0 auto;
+
+}
+
+.myCard {
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 5px solid silver;
+    box-shadow: 20px 20px 30px grey;
+    height: 750px;
+    img {
+        border-radius: 22px 22px 0 0 ;
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+    }
+    div a {
+        display: block;
+        margin: 0 auto;
+        background-color:rgb(66, 57, 146)
+    }
+}
+
+h5 {
+    font-family: ChalkLine;
+    color: black;
+    font-weight:700;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    line-height: 2rem;
+    height: 70px;
+    padding: 10px 10px 10px 0;
+    text-shadow: 10px 02px 10px;
+}
+
+.card-text {
+    height: 50%;
+    overflow: auto;
+    height: 250px;
+}
+
+.card-body {
+   // border: solid;
+}
+
+.btn-condor {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
