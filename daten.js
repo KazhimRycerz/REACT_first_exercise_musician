@@ -37,7 +37,7 @@ export default [
         "https://images.unsplash.com/photo-1603393518079-86dc47e9a910?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
       cardTitle: "Kazhim Rycerz",
       cardDescription:
-        "A ne born musician. Sir Kazhim Rycerz is an English singer, songwriter and musician who gained worldwide fame as co-lead vocalist, co-songwriter and bassist for the Rycerzers. ",
+        "A new born musician. Sir Kazhim Rycerz is an English singer, songwriter and musician who gained worldwide fame as co-lead vocalist, co-songwriter and bassist for the Rycerzers. ",
       button: {
         url: "https://en.wikipedia.org/wiki/Jimi_Hendrix",
         label: "Go to wikipedia",
