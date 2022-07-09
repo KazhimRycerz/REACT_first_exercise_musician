@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "ChalkLine";
+  src: url("./fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("./fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Neoglow";
+  src: url("./fonts/neon_glow/NEON GLOW-Hollow-Inverse.woff2") format("woff2"), url("./fonts/neon_glow/NEON GLOW-Hollow-Inverse.otf") format("otf");
+}
+
+body {
+  background-color: #9489c9;
+}
+
+.kartensammlung {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 0px;
+}
+
+.myCard {
+  width: 250px;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 5px solid silver;
+  -webkit-box-shadow: 20px 20px 30px grey;
+          box-shadow: 20px 20px 30px grey;
+}
+
+.myCard img {
+  border-radius: 22px 22px 0 0;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.myCard div a {
+  display: block;
+  margin: 0 auto;
+  background-color: #423992;
+}
+
+h5 {
+  font-family: ChalkLine;
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  line-height: 2rem;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+  text-shadow: 10px 02px 10px;
+}
+/*# sourceMappingURL=App.css.map */
