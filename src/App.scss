@@ -2,14 +2,13 @@
     font-family: "ChalkLine";
     src: url("./fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("./fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
   }
-@font-face {
-font-family: "Neoglow";
-src: url("./fonts/neon_glow/NEON\ GLOW-Hollow-Inverse.woff2") format("woff2"), url("./fonts/neon_glow/NEON\ GLOW-Hollow-Inverse.otf") format("otf");
-}
 
+body {
+}
 main {
+    background-repeat: no-repeat;
     background:linear-gradient(#9198e5,#e66465);
-    height: 100vh;
+    height: 100%;
 }
 h1 {
     margin-top: 0px;
@@ -70,9 +69,10 @@ h5 {
     height: 50%;
     overflow: auto;
     height: 250px;
-    background-color: lightgrey;
-    padding: 5px;
+    background:linear-gradient(rgba(230, 100, 101, 0.1) , rgba(145, 152, 229, 0.2) );
+    padding: 8px;
     border-radius: 3px;
+    font-size: 0.9rem;
 }
 
 .card-body {

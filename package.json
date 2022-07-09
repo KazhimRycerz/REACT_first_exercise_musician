@@ -21,9 +21,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rm -rf dist",
-    "copy": "mkdir dist && cp -r src/* public/*",
+    "copy": "mkdir dist && mkdir dist/src dist/public  && cp -r src/* dist/src && cp -r public/* dist/public",
     "publish": "gh-pages -d dist",
-    "deploy": "run-s copy build publish"
+    "deploy": "run-s clean copy build publish"
   },
   "eslintConfig": {
     "extends": [
