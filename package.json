@@ -2,6 +2,7 @@
   "name": "REACT_first_exercise_musician",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -19,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "copy": " clean mkdir dist && cp -r src/* public/*",
     "clean": "rm -rf dist",
+    "copy": "mkdir dist && cp -r src/* public/*",
     "publish": "gh-pages -d dist",
     "deploy": "run-s copy build publish"
   },
