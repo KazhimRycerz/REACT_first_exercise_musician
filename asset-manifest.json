@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f3efb1b.css",
-    "main.js": "/static/js/main.fa0d1fd7.js",
-    "static/media/ChalkLine-Outline.otf": "/static/media/ChalkLine-Outline.54c106fd3b70d4b0b22a.otf",
-    "static/media/ChalkLine-Outline.woff2": "/static/media/ChalkLine-Outline.1bde8aac55c324cd48cc.woff2",
-    "index.html": "/index.html",
-    "main.1f3efb1b.css.map": "/static/css/main.1f3efb1b.css.map",
-    "main.fa0d1fd7.js.map": "/static/js/main.fa0d1fd7.js.map"
+    "main.css": "/REACT_first_exercise_musician/static/css/main.b813541e.css",
+    "main.js": "/REACT_first_exercise_musician/static/js/main.fa0d1fd7.js",
+    "static/media/ChalkLine-Outline.otf": "/REACT_first_exercise_musician/static/media/ChalkLine-Outline.54c106fd3b70d4b0b22a.otf",
+    "static/media/ChalkLine-Outline.woff2": "/REACT_first_exercise_musician/static/media/ChalkLine-Outline.1bde8aac55c324cd48cc.woff2",
+    "index.html": "/REACT_first_exercise_musician/index.html",
+    "main.b813541e.css.map": "/REACT_first_exercise_musician/static/css/main.b813541e.css.map",
+    "main.fa0d1fd7.js.map": "/REACT_first_exercise_musician/static/js/main.fa0d1fd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f3efb1b.css",
+    "static/css/main.b813541e.css",
     "static/js/main.fa0d1fd7.js"
   ]
 }
